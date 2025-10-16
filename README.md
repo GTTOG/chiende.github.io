@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Duyên Số 2 Người</title>
+  <title>Web tìm duyên Chien DeDe</title>
   <style>
     :root{
       --bg:#0f1724;
@@ -158,15 +158,15 @@
     <header>
       <div class="logo">♡</div>
       <div>
-        <h1>Duyên Số Hai Người</h1>
-        <p class="desc">Nhập tên 2 người ở hai bên — bấm "Xem duyên" để xem kết quả ngẫu nhiên.</p>
+        <h1>Xem Duyên</h1>
+        <p class="desc">Nhập tên 2 người ở hai bên.</p>
       </div>
     </header>
 
     <main class="stage">
       <section class="panel left">
-        <label for="leftName">Tên người A</label>
-        <input id="leftName" class="name" placeholder="Ví dụ: An" value="">
+        <label for="leftName">Tên</label>
+        <input id="leftName" class="name" placeholder="Ghi tên ở đây" value="">
         <div class="hint">Bạn có thể để tên thật hoặc nickname</div>
         <div style="height:6px"></div>
         <div class="namePreview" id="previewA">—</div>
@@ -190,9 +190,9 @@
       </section>
 
       <section class="panel right">
-        <label for="rightName">Tên người B</label>
-        <input id="rightName" class="name" placeholder="Ví dụ: Bình" value="">
-        <div class="hint">Thử nhập tên khác nhau để thấy kết quả thú vị</div>
+        <label for="rightName">Tên</label>
+        <input id="rightName" class="name" placeholder="Ghi tên ở đây" value="">
+        <div class="hint">Nhập 2 tên khác nhau</div>
         <div style="height:6px"></div>
         <div class="namePreview" id="previewB">—</div>
       </section>
@@ -432,5 +432,9 @@
     // initialize
     updatePreviews();
   </script>
+
+  <footer style="text-align:center;margin-top:40px;font-size:13px;color:rgba(255,255,255,0.45)">
+    Web Dành Cho <strong>Chien De</strong>
+  </footer>
 </body>
 </html>
